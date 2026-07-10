@@ -1,0 +1,19 @@
+# OS / éditeurs
+.DS_Store
+
+# Outils locaux
+.claude/
+.playwright-mcp/
+
+# Fichiers sources déjà intégrés (base64) dans index.html — non nécessaires au site
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Vidéos sources non compressées (les versions web sont video-1/2/3.mp4)
+video 1/
+video 2/
+
+# Vercel
+.vercel/
